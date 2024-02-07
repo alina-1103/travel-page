@@ -21,7 +21,7 @@
     color: white;
     text-transform: uppercase;
     font-size: 50px;
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     margin: 0;
 }
 
@@ -40,7 +40,7 @@
     color: black;
     font-size: 24px;
     font-weight: 700;
-    box-shadow: 2px 4px 8px rgb(68,67,67);
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
     border-radius: 8px;
 }
 
@@ -53,4 +53,45 @@
 #hero-content a:active {
     font-weight: 700;
     color: red;
+}
+
+#highlights h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(59, 65, 64);
+    font-size: 40px;
+    font-weight: 700;
+    margin: 24px 0;
+}
+
+#destinations {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 40px;
+    justify-content: center;
+}
+
+.destination {
+    margin: 0 20px;
+    text-transform: uppercase;
+}
+
+.destination p {
+    text-align: center;
+    font-size: 24px;
+    color: rgb(124, 123, 123);
+    margin: 20px 0;
+}
+
+.destination img {
+    height: 200px;
+    width: 100%;
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+    border-radius: 10px;
+    object-fit: fill;
+}
+
+.destination strong {
+    color: rgb(0, 160, 117);
 }
